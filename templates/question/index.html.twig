@@ -9,9 +9,9 @@
         <thead>
             <tr>
                 <th>Id</th>
-                <th>Text</th>
-                 <th>Categories</th>
-                <th>actions</th>
+                <th>{% trans %}Text{% endtrans %}</th>
+                 <th>{% trans %}Categories{% endtrans %}</th>
+                <th>{% trans %}actions{% endtrans %}</th>
             </tr>
         </thead>
         <tbody>
@@ -23,19 +23,19 @@
                 <td>
                     
 
-                    <a href="{{ path('question_show', {'id': question.id}) }}">show</a>
+                    <a href="{{ path('question_show', {'id': question.id}) }}">{% trans %}show{% endtrans %}</a>
                     
-                    <a href="{{ path('question_edit', {'id': question.id}) }}">edit</a>
+                    <a href="{{ path('question_edit', {'id': question.id}) }}">{% trans %}edit{% endtrans %}</a>
                 </td>
             </tr>
         {% else %}
             <tr>
-                <td colspan="5">no records found</td>
+                <td colspan="5">{% trans %}no records found{% endtrans %}</td>
             </tr>
         {% endfor %}
         </tbody>
     </table>
-      <a href="{{ path('question_new', {'nb': 2}) }}"> 2 answers</a>,
-    <a href="{{ path('question_new', {'nb': 3}) }}"> 3 answers</a>
-    or <a href="{{ path('question_new', {'nb': 4}) }}"> 4 answers</a>
+      <a href="{{ path('question_new', {'nb': 2}) }}"> {% trans %}2 answers{% endtrans %}</a>,
+    <a href="{{ path('question_new', {'nb': 3}) }}">{% trans %} 3 answers{% endtrans %}</a>
+    or <a href="{{ path('question_new', {'nb': 4}) }}"> {% trans %}4 answers{% endtrans %}</a>
 {% endblock %}

@@ -3,15 +3,15 @@
 {% block title %}Answer index{% endblock %}
 
 {% block body %}
-    <h1>Answer index</h1>
+    <h1>{% trans %}Answer index{% endtrans %}</h1>
 
     <table class="table">
         <thead>
             <tr>
                 <th>Id</th>
-                <th>Text</th>
-                <th>Correct</th>
-                <th>actions</th>
+                <th>{% trans %}Text{% endtrans %}</th>
+                <th>{% trans %}Correct{% endtrans %}</th>
+                <th>{% trans %}actions{% endtrans %}</th>
             </tr>
         </thead>
         <tbody>
@@ -22,16 +22,16 @@
                 <td>{{ answer.correct }}</td>
                 <td>
                     <a class="btn btn-primary" href="{{ path('answer_show', {'id': answer.id}) }}">show</a>
-                    <a class="btn btn-primary" href="{{ path('answer_edit', {'id': answer.id}) }}">edit</a>
+                    <a class="btn btn-primary" href="{{ path('answer_edit', {'id': answer.id}) }}">{% trans %}edit{% endtrans %}</a>
                 </td>
             </tr>
         {% else %}
             <tr>
-                <td colspan="4">no records found</td>
+                <td colspan="4">{% trans %}no records found{% endtrans %}</td>
             </tr>
         {% endfor %}
         </tbody>
     </table>
 
-    <a class="btn btn-primary" href="{{ path('answer_new') }}">Create new</a>
+    <a class="btn btn-primary" href="{{ path('answer_new') }}">{% trans %}Create new{% endtrans %}</a>
 {% endblock %}
