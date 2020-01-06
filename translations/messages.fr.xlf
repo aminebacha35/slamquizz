@@ -9,6 +9,174 @@
         <source>Question index</source>
         <target>Question</target>
       </trans-unit>
+      <trans-unit id="nVRn3MP" resname="Edit Answer">
+        <source>Edit Answer</source>
+        <target>Modifier les réponses</target>
+      </trans-unit>
+      <trans-unit id="U0M9PNE" resname="back to list">
+        <source>back to list</source>
+        <target>Retour</target>
+      </trans-unit>
+      <trans-unit id="VSfIL5D" resname="Answer index">
+        <source>Answer index</source>
+        <target>Accueil des réponses</target>
+      </trans-unit>
+      <trans-unit id="cZiMTY4" resname="Text">
+        <source>Text</source>
+        <target>Texte</target>
+      </trans-unit>
+      <trans-unit id="rKAaGjo" resname="Correct">
+        <source>Correct</source>
+        <target>Correcte</target>
+      </trans-unit>
+      <trans-unit id="Kw3N1AA" resname="actions">
+        <source>actions</source>
+        <target>actions</target>
+      </trans-unit>
+      <trans-unit id="JiEhxTc" resname="edit">
+        <source>edit</source>
+        <target>Modifier</target>
+      </trans-unit>
+      <trans-unit id="D5lam8." resname="no records found">
+        <source>no records found</source>
+        <target>Aucune données trouvée</target>
+      </trans-unit>
+      <trans-unit id="nz33U6Q" resname="Create new">
+        <source>Create new</source>
+        <target>Créer</target>
+      </trans-unit>
+      <trans-unit id="qBTARCG" resname="Create new Answer">
+        <source>Create new Answer</source>
+        <target>Créer</target>
+      </trans-unit>
+      <trans-unit id="sqOqYCd" resname="Answer">
+        <source>Answer</source>
+        <target>Réponses</target>
+      </trans-unit>
+      <trans-unit id="4tClSWj" resname="Delete">
+        <source>Delete</source>
+        <target>Supprimer</target>
+      </trans-unit>
+      <trans-unit id="DZO3ehf" resname="Edit Category">
+        <source>Edit Category</source>
+        <target>Modifier catégorie</target>
+      </trans-unit>
+      <trans-unit id="JDGJ6tc" resname="Shortname">
+        <source>Shortname</source>
+        <target>nom</target>
+      </trans-unit>
+      <trans-unit id="9iiazAv" resname="Longname">
+        <source>Longname</source>
+        <target>Texte</target>
+      </trans-unit>
+      <trans-unit id="HGMzUJ3" resname="show">
+        <source>show</source>
+        <target>Voire</target>
+      </trans-unit>
+      <trans-unit id="W6joEsF" resname="Create new Category">
+        <source>Create new Category</source>
+        <target>Créer</target>
+      </trans-unit>
+      <trans-unit id="i7NN3Mb" resname="WELCOME TO SLAMQUIZ">
+        <source>WELCOME TO SLAMQUIZ</source>
+        <target>Bienvenue sur Slamquiz</target>
+      </trans-unit>
+      <trans-unit id="Gv81_4N" resname="Developped with symfony 4">
+        <source>Developped with symfony 4</source>
+        <target>Developpé avec Symfony 4</target>
+      </trans-unit>
+      <trans-unit id="jRahm5f" resname="What you can do :">
+        <source>What you can do :</source>
+        <target>Ce que l'on peut faire :</target>
+      </trans-unit>
+      <trans-unit id="eCngJ7i" resname="Dynamic and motivating content">
+        <source>Dynamic and motivating content</source>
+        <target>Contenue dynamique et motivant </target>
+      </trans-unit>
+      <trans-unit id="5lNXheQ" resname="Automatic rating">
+        <source>Automatic rating</source>
+        <target>Notation automatique</target>
+      </trans-unit>
+      <trans-unit id="0IqDB12" resname="Results in real time (received by mail)">
+        <source>Results in real time (received by mail)</source>
+        <target>Résultat en temps réel (reçu par mail)</target>
+      </trans-unit>
+      <trans-unit id="cleE4NT" resname="Test your students with a smartphone">
+        <source>Test your students with a smartphone</source>
+        <target>Tester vos étudiants simplement à l'aide d'un Smartphone</target>
+      </trans-unit>
+      <trans-unit id="5rjzhZ1" resname="Note : This is a free software, you can copy and edit it">
+        <source>Note : This is a free software, you can copy and edit it</source>
+        <target>Note: Ce logiciel est gratuit et libre, vous pouvez donc le copier et le modifier</target>
+      </trans-unit>
+      <trans-unit id="nibTd3r" resname="Edit Question">
+        <source>Edit Question</source>
+        <target>Modifier</target>
+      </trans-unit>
+      <trans-unit id="uLHYlMa" resname="Categories">
+        <source>Categories</source>
+        <target>Categories</target>
+      </trans-unit>
+      <trans-unit id="5VzXa2Z" resname="2 answers">
+        <source>2 answers</source>
+        <target>2 questions</target>
+      </trans-unit>
+      <trans-unit id="l_USnPv" resname="3 answers">
+        <source>3 answers</source>
+        <target>3 questions</target>
+      </trans-unit>
+      <trans-unit id="pCS30P3" resname="4 answers">
+        <source>4 answers</source>
+        <target>4 questions</target>
+      </trans-unit>
+      <trans-unit id="E2JqnxS" resname="Create new Question">
+        <source>Create new Question</source>
+        <target>Créer une nouvelle questions</target>
+      </trans-unit>
+      <trans-unit id="KJr.ErB" resname="Question">
+        <source>Question</source>
+        <target>Question</target>
+      </trans-unit>
+      <trans-unit id="d1tb_WR" resname="Created at">
+        <source>Created at</source>
+        <target>Créer le</target>
+      </trans-unit>
+      <trans-unit id="PCEFPeg" resname="Updated at">
+        <source>Updated at</source>
+        <target>Modifier le </target>
+      </trans-unit>
+      <trans-unit id="u3I07BJ" resname="Register">
+        <source>Register</source>
+        <target>Inscription</target>
+      </trans-unit>
+      <trans-unit id="acVpEs4" resname="You are logged in as">
+        <source>You are logged in as</source>
+        <target>Bonjour </target>
+      </trans-unit>
+      <trans-unit id="0FJ_Sz1" resname="Logout">
+        <source>Logout</source>
+        <target>Deconnexion</target>
+      </trans-unit>
+      <trans-unit id="dDUw20Q" resname="Please sign in">
+        <source>Please sign in</source>
+        <target>Connectez-vous</target>
+      </trans-unit>
+      <trans-unit id="lpzL089" resname="Email">
+        <source>Email</source>
+        <target>Email</target>
+      </trans-unit>
+      <trans-unit id="588_9PF" resname="Password">
+        <source>Password</source>
+        <target>Mot de passe</target>
+      </trans-unit>
+      <trans-unit id="_TJnqhH" resname="Remember me">
+        <source>Remember me</source>
+        <target>Se rappeler de moi</target>
+      </trans-unit>
+      <trans-unit id="v9QCsvb" resname="Sign in">
+        <source>Sign in</source>
+        <target>Connexion</target>
+      </trans-unit>
     </body>
   </file>
 </xliff>

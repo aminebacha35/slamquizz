@@ -25,33 +25,30 @@
                 <a class="nav-link" href="/">Accueil</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="{{ path('category_index') }}">Category</a>
+                <a class="nav-link" href="{{ path('category_index') }}">{% trans %}Category{% endtrans %}</a>
             </li>
 
             {% if is_granted("ROLE_SUPERADMIN") %}
             <li class="nav-item">
-                <a class="nav-link" href="{{ path('user_index') }}">User</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="{{ path('answer_index') }}">Answer</a>
+                <a class="nav-link" href="{{ path('user_index') }}">{% trans %}User{% endtrans %}</a>
             </li>
             {% endif %}
 
             {% if is_granted('ROLE_ADMIN') %}
             <li class="nav-item">
-                <a class="nav-link" href="{{ path('question_index') }}">Question</a>
+                <a class="nav-link" href="{{ path('question_index') }}">{% trans %}Question{% endtrans %}</a>
             </li>
             {% endif %}
             </ul>
 
 
             {% if is_granted('IS_AUTHENTICATED_FULLY') %}
-            <a href="/logout"><button class="btn btn-danger my-2 my-sm-0" type="submit">Logout</button></a>
+            <a href="/logout"><button class="btn btn-danger my-2 my-sm-0" type="submit">{% trans %}Logout{% endtrans %}</button></a>
             {% endif %}
 
             {% if not is_granted('IS_AUTHENTICATED_FULLY') %}
-            <a href="/login"><button class="btn btn-success my-2 my-sm-0">Sign in</button></a>
-            <a href="/register"><button class="btn btn-success my-2 my-sm-0">Sign up</button></a>
+            <a href="/login"><button class="btn btn-success my-2 my-sm-0">{% trans %}Sign in{% endtrans %}</button></a>
+            <a href="/register"><button class="btn btn-success my-2 my-sm-0">{% trans %}Sign up{% endtrans %}</button></a>
             {% endif %}
 
         </div>
@@ -60,7 +57,7 @@
     <main role="main" class="container">
 
     <div class="starter-template">
-        <h1>Bootstrap starter template</h1>
+        <h1>{% trans %}Bootstrap starter template{% endtrans %}</h1>
     </div>
 
     </main>

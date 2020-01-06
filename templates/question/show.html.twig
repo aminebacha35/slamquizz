@@ -21,7 +21,7 @@
             </tr>
             <tr>
                 <th>{% trans %}Updated at{% endtrans %}</th>
-                <td>{% trans %}{{ question.updatedAt ? question.updatedAt|date('Y-m-d H:i:s') : '' }}{% endtrans %}</td>
+                <td>{{ question.updatedAt ? question.updatedAt|date('Y-m-d H:i:s') : '' }}</td>
             </tr>
         </tbody>
     </table>
