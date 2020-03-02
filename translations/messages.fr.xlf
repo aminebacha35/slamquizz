@@ -71,7 +71,7 @@
       </trans-unit>
       <trans-unit id="HGMzUJ3" resname="show">
         <source>show</source>
-        <target>Voire</target>
+        <target>Voir</target>
       </trans-unit>
       <trans-unit id="W6joEsF" resname="Create new Category">
         <source>Create new Category</source>
@@ -176,6 +176,22 @@
       <trans-unit id="v9QCsvb" resname="Sign in">
         <source>Sign in</source>
         <target>Connexion</target>
+      </trans-unit>
+      <trans-unit id="KSwG8AR" resname="Category">
+        <source>Category</source>
+        <target>Catégorie</target>
+      </trans-unit>
+      <trans-unit id="tRLZfny" resname="User">
+        <source>User</source>
+        <target>Utilisateur</target>
+      </trans-unit>
+      <trans-unit id="XiuOllA" resname="Sign up">
+        <source>Sign up</source>
+        <target>Inscrivez-vous</target>
+      </trans-unit>
+      <trans-unit id="9x44oDa" resname="Bootstrap starter template">
+        <source>Bootstrap starter template</source>
+        <target>Bootstrap Template</target>
       </trans-unit>
     </body>
   </file>
