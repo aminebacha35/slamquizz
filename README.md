@@ -6,7 +6,7 @@ SLAMQUIZ
 # Download
 Open your CMD and copy this line : 
 ```
-git clone https://github.com/hochdyl/slamstarter.git
+git clone https://github.com/bachami/slamquizz.git
 ```
 
 # Install
